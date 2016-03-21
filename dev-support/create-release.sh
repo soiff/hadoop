@@ -88,7 +88,7 @@ run ${MVN} apache-rat:check
 # Create SRC and BIN tarballs for release,
 # Using 'install’ goal instead of 'package' so artifacts are available 
 # in the Maven local cache for the site generation
-run ${MVN} install -Pdist,src,native -DskipTests -Dtar
+run ${MVN} install -Pdist,src,native,yarn-ui -DskipTests -Dtar
 
 # Create site for release
 run ${MVN} site site:stage -Pdist -Psrc
