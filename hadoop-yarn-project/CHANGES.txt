@@ -173,6 +173,8 @@ Branch YARN-2928: Timeline Server Next Generation: Phase 1
     YARN-3367. Replace starting a separate thread for post entity with event
     loop in TimelineClient (Naganarasimha G R via sjlee)
 
+    YARN-3461. Consolidate flow name/version/run defaults. (Sangjin Lee via varunsaxena)
+
   OPTIMIZATIONS
 
   BUG FIXES
